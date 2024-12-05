@@ -5,16 +5,15 @@ Este script foi desenvolvido para extrair informações relevantes dos logs do w
 ## Baixando
 Você pode baixar o script apenas clonando diretamente o repositório
 ``` bash
-    git clone https://github.com/andradesysadmin/formatlogpy
-    cd formatlogpy
-
+git clone https://github.com/andradesysadmin/formatlogpy
+cd formatlogpy
 ```
 ou através da sua imagem docker
 ``` bash
-    git clone https://github.com/andradesysadmin/formatlogpy
-    cd formatlogpy
-    docker build -t formatlogs .
-
+git clone https://github.com/andradesysadmin/formatlogpy
+cd formatlogpy
+docker build -t formatlogs .
+docker run -it formatlogs bash
 ```
 
 ## Usando
